@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .form-group { margin-bottom: 20px; max-width: 500px; }
+        label { display: block; font-weight: bold; margin-bottom: 5px; color: #666; }
+        .hint { font-size: 0.85em; color: #999; margin-top: -5px; margin-bottom: 10px; }
+    </style>
+</head>
+<body>
+    <div class="main-content">
+        <div class="card">
+            <h2>New Attendance Book</h2>
+            <div class="form-group">
+                <label>Attendance Book Name:</label>
+                <input type="text" style="background-color: #fff9c4;"> </div>
+            <div class="form-group">
+                <label>Notation Set</label>
+                <div class="hint">Default Set: Present (P), Absent (A), Tardy (T)</div>
+            </div>
+            <div class="form-group">
+                <label><input type="checkbox"> Show Saturday and Sunday</label>
+            </div>
+            <div class="form-group">
+                <label>Publishing options:</label>
+                <label style="font-weight: normal;"><input type="radio" name="pub" checked> Publish nothing</label>
+                <label style="font-weight: normal;"><input type="radio" name="pub"> Publish all current entries</label>
+            </div>
+            <button class="btn btn-save">Save</button>
+            <button class="btn" style="background:none;">Cancel</button>
+        </div>
+    </div>
+</body>
+</html>

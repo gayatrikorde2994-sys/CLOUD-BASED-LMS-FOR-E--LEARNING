@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head><link rel="stylesheet" href="style.css"></head>
+<body>
+    <div class="lms-body">
+        <div class="lms-sidebar">
+            <div style="font-size:22px;">🏠</div>
+            <div style="font-size:22px;">🎓</div>
+            <div style="color:#8bc34a; font-size:22px;">👤</div>
+        </div>
+        <div class="main-builder">
+            <div class="builder-header">
+                <h1 style="color:#666; font-weight:normal;">Informatika</h1>
+                <button style="padding:8px 20px; background:white; border:1px solid #ccc; border-radius:4px; cursor:pointer;">Preview Course</button>
+            </div>
+            <div class="tab-row">
+                <div class="tab-active">Content</div>
+                <div class="tab-inactive">People</div>
+                <div class="tab-inactive">Settings</div>
+            </div>
+            <div class="builder-content">
+                <div class="empty-area">
+                    <div class="dashed-box">Add content to build your course</div>
+                </div>
+                <div class="dark-panel">
+                    <div class="left-nav-icons">
+                        <div>📤<br>Upload</div>
+                        <div class="create-label">🔨<br>Create</div>
+                    </div>
+                    <div class="tool-grid">
+                        <div class="tool-box"><div class="icon-circle">📝</div><span class="tool-text">Assessment</span></div>
+                        <div class="tool-box"><div class="icon-circle">📊</div><span class="tool-text">Survey</span></div>
+                        <div class="tool-box"><div class="icon-circle">📄</div><span class="tool-text">Page of info</span></div>
+                        <div class="tool-box"><div class="icon-circle">👥</div><span class="tool-text">Live session</span></div>
+                        <div class="tool-box"><div class="icon-circle">✔️</div><span class="tool-text">User Checklist</span></div>
+                        <div class="tool-box"><div class="icon-circle">🔗</div><span class="tool-text">Embed content</span></div>
+                        <div class="tool-box"><div class="icon-circle">📦</div><span class="tool-text">Scorm/AICC</span></div>
+                        <div class="tool-box"><div class="icon-circle">📁</div><span class="tool-text">Module</span></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

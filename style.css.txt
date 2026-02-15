@@ -1,0 +1,63 @@
+/* Shared Styles */
+:root {
+    --lms-gray: #f0f0f0;
+    --sidebar-dark: #333333;
+    --border-color: #cccccc;
+    --active-blue: #0078d4;
+    --text-main: #444;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    background-color: var(--lms-gray);
+    color: var(--text-main);
+}
+
+/* Layout */
+.app-container {
+    display: flex;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.sidebar-tools {
+    width: 50px;
+    background: var(--sidebar-dark);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 15px;
+    gap: 20px;
+}
+
+.sidebar-icon {
+    width: 24px;
+    height: 24px;
+    background: #666;
+    border-radius: 3px;
+}
+
+.content-area {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+/* UI Elements */
+.header-bar {
+    background: #fff;
+    border-bottom: 1px solid var(--border-color);
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.btn-action {
+    padding: 6px 15px;
+    border: 1px solid #ccc;
+    background: white;
+    border-radius: 4px;
+    cursor: pointer;
+}
